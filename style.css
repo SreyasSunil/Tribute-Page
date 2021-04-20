@@ -1,0 +1,304 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5em;
+    background-color: #f7bbbb;
+    box-shadow: -5px 5px 8px #888888;
+    box-sizing: border-box;
+    padding: 10px 15px;
+}
+
+.heading{
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+.Cr-name{
+    color: #5d1f96;
+}
+
+.R-name{
+    color: #753232;
+}
+
+.caps{
+    font-weight: bolder;
+}
+
+#nav{
+    display: inline-block;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+.nav-bar > a{
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0px 10px;
+    font: bolder 22px  'Bebas Neue', cursive;
+    color: #5f1825;
+}
+
+.nav-bar > a:hover{
+    /* font-weight: bolder;
+    transition: all 0.5 ease-in-out; */
+    transform: scale(1.1);
+    opacity: 0.7;
+    text-decoration: underline;
+    transition: all 0.2s ease-in-out;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    padding-top: 85px;
+    width: auto;
+    height: 90vh;
+}
+
+.first-page{
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 5px;
+}
+
+.pageOne{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff2e0;
+    padding-bottom: 75px;
+}
+
+#cap-div{
+    display: inline-block;
+    padding: 5px 70px 5px 35px;
+}
+
+.caption{
+    font: 38px'Lobster', cursive;
+    color: #5f1825;
+}
+
+#image1 > img{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 30%;
+}
+
+#desc-div{
+    border-left: 3px solid black;
+    padding: 25px;
+    font: 22px Georgia, serif;
+    margin: 25px 70px;
+    color: #5f1825;
+}
+
+.pageTwo{
+    width: 100%;
+    background-color: #d8d591;
+    padding: 80px 0px;
+}
+
+.card1{
+    padding: 15px;
+    margin: 20px 20px 20px 75px;
+    width: 500px;
+    height: 300px;
+    border: 4px solid #f6ffaa;
+    border-radius: 5%;
+    background-color: #f6ffaa;
+    font: 14px Arial, Helvetica, sans-serif;
+    box-shadow: -10px 10px 8px #888888;
+    line-height: 1.6;
+
+}
+
+.card1 ul{
+    margin: 0px 0px 0px 45px;
+}
+
+.image2 img{
+    width: 450px;
+    border-radius: 12%;
+    box-shadow: -10px 10px 8px #5f1825;;
+}
+
+#about{
+    padding-top: 55px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards{
+    border: 2px solid #5f1825;
+    margin: 25px;
+    padding: 35px;
+    border-radius: 25px;
+    box-shadow: -5px 7px 29px #5F181F;
+    font: bolder 22px 'Bebas Neue', cursive;
+    color: #5f1825;
+    text-align: center;
+}
+
+.cards:hover{
+    background-color: hsl(349, 30%, 46%);
+    color: #fff2e0;
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
+}
+
+.pageFour{
+    padding: 50px 0px ;
+    background-color: #fff2e0;
+}
+
+.pos-ach{
+    font: bolder 42px 'Bebas Neue', cursive;
+    text-decoration: underline;
+    color: #5f1825;
+    margin: 40px 50px;
+}
+
+#ach-grid{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.pageThree{
+    background-color: #d8d591;
+    padding: 80px 0px;
+}
+
+.profs{
+    margin: 85px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profs img{
+    width: 250px;
+    border: 2px solid #5f1825;
+    border-radius: 100%;
+}
+
+.football{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.football p{
+    font: bolder 32px 'Bebas Neue', cursive;
+    color: #5f1825;
+    padding: 5px;
+}
+
+.country{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.country p{
+    font: bolder 32px 'Bebas Neue', cursive;
+    color: #5f1825;
+    padding: 5px;
+}
+
+.goals img{
+    border-radius: 200%;
+}
+
+.goals{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.goals p{
+    font: bolder 32px 'Bebas Neue', cursive;
+    color: #5f1825;
+    padding: 5px;
+}
+
+.pos{
+    padding-left: 90px;
+    font: bolder 42px 'Bebas Neue', cursive;
+    text-decoration: underline;
+    color: #5f1825;
+}
+
+.pageFive{
+    background-color: #d8d591;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.box img{
+    width: 250px;
+}
+.quote{
+    color: white;
+    background-color: black;
+}
+
+.quote span{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.quote p{
+    text-align: center;
+    font: 20px Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;   
+    background-color: #5f1825d6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 25px 0px;
+    line-height: 0.5px;
+    font: 10px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    /* color: black; */
+}
+
+.creator{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    font-weight: bold;
+    letter-spacing: 1px;
+}
